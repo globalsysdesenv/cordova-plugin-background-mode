@@ -155,7 +155,7 @@ public class ForegroundService extends Service {
         // use channelid for Oreo and higher
 	if(Build.VERSION.SDK_INT >= 26){
 	    // The user-visible name of the channel.
-	    CharSequence name = "cordova-plugin-background-mode";
+	    CharSequence name = "cordova-plugin-background-mode-ios-12";
 	    // The user-visible description of the channel.
 	    String description = "cordova-plugin-background-moden notification";
 
